@@ -10,7 +10,6 @@ First, set the configuration parameters in `config.ini`.
 _Example:_
 ```ini
 [user]
-name=John Doe
 email=jdoe@mymail.mines.edu
 key=N!2mvOhPU?Y^T)
 ```
