@@ -20,6 +20,7 @@ def send(digest_file, config_file='config.ini'):
             raise FileNotFoundError(f)
 
     log_file = os.path.join('logs', digest_file + '.log')
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
     logging.basicConfig(filename=log_file, level=logging.INFO,
                         format='%(asctime)s - [%(created)d] - %(levelname)s - %(message)s')
 
