@@ -22,7 +22,7 @@ _Note: An example is provided in `data/feedback_example.json`._
 
 #### Feedback object schema
 Each feedback object represents a single response to the feedback form. It conforms to the structure
-```json
+```
 {
   "recipient": {
     "first": [first],
@@ -48,7 +48,7 @@ Key-value pairs not present in **every** feedback object in a file will be omitt
 
 #### Feedback file
 The feedback file is simply a JSON-serialized list of feedback objects:
-```json
+```
 [
   [object_1],
   [object_2],
