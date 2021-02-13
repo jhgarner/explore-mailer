@@ -3,6 +3,15 @@ Automatic CSCI 101 Explore project presentation feedback emailer.
 
 _Author:_ Kevin Barnard ([kbarnard@mymail.mines.edu](mailto:kbarnard@mymail.mines.edu))
 
+---
+#### Table of Contents
+1. [Configuration](#1-configuration)
+2. [Data munging](#2-data-munging)
+3. [Template file](#3-template-file)
+4. [_Parameters file (optional)_](#4-_parameters-file-optional_)
+5. [Generate digest](#5-generate-digest)
+6. [Send emails](#6-send-emails)
+---
 ## Usage
 ### 1. Configuration
 First, set the configuration parameters in `config.ini`.
