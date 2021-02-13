@@ -46,9 +46,13 @@ class Email:
     def send(self):
         """ Send Email over the established connection """
         if self._valid:
-            self.connection.sendmail(self.sender, self.receiver, self.formatted_message)
+            try:
+                self.connection.sendmail(self.sender, self.receiver, self.formatted_message)
+                return 0, f'Successfully sent email {self.sender} -> {self.receiver}'
+            except Exception as e:
+                return 2, str(e)
         else:
-            print('Error: Invalid Email. Message not sent.')
+            return 1, 'Invalid email formatting, message not sent'
 
 
 def login(username: str, password: str) -> smtplib.SMTP_SSL:

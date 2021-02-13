@@ -1,0 +1,9 @@
+{first} {last} Explore Presentation Feedback, {class} {semester}
+{first},
+
+Below is your explore presentation feedback.
+
+{feedback}
+
+{sender_first} {sender_last}
+{class} {semester}

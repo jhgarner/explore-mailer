@@ -1,0 +1,11 @@
+Explore Feedback, {first} {last}
+{first},
+
+Below is a table of peer feedback for your in-class explore poster presentation.
+
+Note: We do not screen form responses.
+
+{feedback}
+
+Best,
+Kevin Barnard
