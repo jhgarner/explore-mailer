@@ -1,9 +1,9 @@
 [
   {
     "recipient": {
-      "first": "Adam",
-      "last": "Apple",
-      "email": "aapple@mymail.mines.edu"
+      "first": "Jack",
+      "last": "Garner",
+      "email": "jkrmnj465@gmail.com"
     },
     "responses": {
       "What did you learn from the presentation?": "I learned about the good and the bad of Apple products.",
@@ -13,38 +13,14 @@
   },
   {
     "recipient": {
-      "first": "Adam",
-      "last": "Apple",
-      "email": "aapple@mymail.mines.edu"
+      "first": "Jackson",
+      "last": "Garner",
+      "email": "jacksonhgarner@outlook.com"
     },
     "responses": {
       "What did you learn from the presentation?": "iphones are cool",
       "What did the presenter do well?": "volume",
       "What could the presenter improve?": "n/a"
-    }
-  },
-  {
-    "recipient": {
-      "first": "Adam",
-      "last": "Apple",
-      "email": "aapple@mymail.mines.edu"
-    },
-    "responses": {
-      "What did you learn from the presentation?": "Not much, I knew all of this going in",
-      "What did the presenter do well?": "Maintaining eye contact with the audience",
-      "What could the presenter improve?": "Nothing"
-    }
-  },
-  {
-    "recipient": {
-      "first": "Barb",
-      "last": "Blue",
-      "email": "bblue@mymail.mines.edu"
-    },
-    "responses": {
-      "What did you learn from the presentation?": "That Linux is cool!",
-      "What did the presenter do well?": "She incorporated humor but was informative",
-      "What could the presenter improve?": "Presentation was too long"
     }
   }
 ]
