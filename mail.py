@@ -2,8 +2,6 @@
 
 import os
 import base64
-import smtplib
-import ssl
 from email.mime.text import MIMEText
 from typing import Optional
 
@@ -12,10 +10,6 @@ from googleapiclient.discovery import Resource
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
-
-# PORT = 587
-PORT = 465
-SMTP_URL = 'smtp.gmail.com'
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
@@ -44,7 +38,7 @@ class Email:
         message['To'] = self.receiver
         message['Subject'] = self.subject.format(**self.params)
         # message.attach(MIMEText(self.body.format(**self.params), 'plain'))
-        return {'raw': base64.urlsafe_b64encode(str.encode(message.as_string()))}
+        return {'raw': base64.urlsafe_b64encode(message.as_bytes()).decode()}
 
     @property
     def _valid(self):
@@ -65,7 +59,7 @@ class Email:
             return 1, 'Invalid email formatting, message not sent'
 
 
-def login(username: str, password: str) -> Resource:
+def login() -> Resource:
     """ Comes from official Google documentation at
     https://developers.google.com/gmail/api/quickstart/python """
     creds = None

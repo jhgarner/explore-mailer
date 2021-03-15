@@ -20,12 +20,9 @@ _Example:_
 ```ini
 [user]
 email=jdoe@mymail.mines.edu
-key=N!2mvOhPU?Y^T)
 ```
 
-The `key` field is your MyMail IMAP/POP password, available at [identity.mines.edu](https://identity.mines.edu/), under `Manage Account`. This field field is ***not*** your Mines Multipass password. 
-
-_Less secure app access_ (see [support.google.com/accounts/answer/6010255](https://support.google.com/accounts/answer/6010255)) must be turned **on** for this application to work. 
+The email in `config.ini` will be the email you send from.
 
 ### 2. Data munging
 Next, munge the available data into the correct file format.

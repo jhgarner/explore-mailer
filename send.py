@@ -29,10 +29,9 @@ def send(digest_file, config_file='config.ini'):
     user = config_parser['user']
 
     user_email = user['email']
-    user_key = user['key']
 
     digest_data = read_digest_file(digest_file)
-    with mail.login(user_email, user_key) as connection:
+    with mail.login() as connection:
         print(f'Successfully logged in to {user_email}')
         for idx, item in enumerate(digest_data):
             print(f'Sending email {idx+1}/{len(digest_data)}', end='...')
