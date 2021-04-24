@@ -1,0 +1,15 @@
+{first} {last} Explore Presentation Feedback
+{first} {last},
+
+Below you'll find your Explore presentation feedback submitted by other students
+in your CSCI 101 class. While the feedback provided by your peers does not count
+towards your Explore presentation grade, we expect the feedback will be helpful
+for you to improve as a presenter.
+
+We have NOT screened all the feedback that has been submitted. If you see
+anything inappropriate in the comments you have received, please let me know.
+
+
+{feedback}
+
+{sender_first} {sender_last}

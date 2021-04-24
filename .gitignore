@@ -128,3 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 token.json
+
+feedback.csv
+feedback.json
+survey.csv
+to_send.json
