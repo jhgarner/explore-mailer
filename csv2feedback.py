@@ -42,7 +42,7 @@ for line in lines:
             break
 
     if not found:
-        # print(f'Unable to find: {present_first} {present_last} so skipping student')
+        print(f'Unable to find: {present_first} {present_last} so skipping student')
         continue
     if email == '':
         continue
@@ -61,5 +61,5 @@ for line in lines:
     feedback.append(this_line_feedback)
 
 json_object = json.dumps(feedback, indent = 4)  
-print(json_object)
+# print(json_object)
 # print(len(feedback))
